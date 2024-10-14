@@ -1,4 +1,6 @@
-## Tech Writing Interview Excercise link 
+## Tech Writing Interview Exercise
+
+Source for [AsyncAPI document](https://github.com/quetzalliwrites/6-Figure-Tech-Writer-Resource-Hub/blob/main/interview-prep/writing-prompts/asyncapi-document-writing-prompt.md#technical-writing-interview-exercise-asyncapi-document)
 
 ### Raw Text
 An AsyncAPI file document or document file is basically a thing you have to create for some kind of Event-Driven API. It's a file that like defines different, totally important components of the API which of course is not REST, just to be clear, because it's events-based which means not synchronous... asynchronous is the opposite of synchronous FYI. You gotta use JSON, or YAML, but no funny business with YAML extensions, just plain YAML that matches JSON-like capabilities exactly; don't get creative.
@@ -11,3 +13,12 @@ Confused yet, or is that only me?
 
 
 ### Transformation
+An AsyncAPI file is used for event-driven APIs. It defines the components of an API.
+
+*Note that the API is not a REST API, due to the event being asynchronous
+
+To do so, you must use JSON or YAML. It is recommended that YAML matches JSON-like syntax.
+
+The AsyncAPI file is in turn transformed into code, to generate more docs to validate incoming and outgoing messages sent by your application
+
+It is also used to apply "policies" to the events in the API before they are sent to the application
